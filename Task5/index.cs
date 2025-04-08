@@ -4,8 +4,8 @@ using System.IO;
 
 class Program {
     static void Main(string args[]) {
-        string inputFile = "students.csv";
-        string outputFile = "result.txt";
+        string inputFile = "D:\Presidio\Csharp_task\Task5\txt_files\student.csv";
+        string outputFile = "D:\Presidio\Csharp_task\Task5\txt_files\result.txt";
 
         // List<string> sampleData = new List<string> {
         //     "Name,Grade,Age",

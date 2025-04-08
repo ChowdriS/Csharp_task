@@ -37,12 +37,12 @@ namespace SampleApp
 
         static void alert(int count)
         {
-            Console.WriteLine($"\nAlert: Counter reached {count}!");
+            Console.WriteLine($"\n-Alert: Counter reached {count}!");
         }
 
         static void log(int count)
         {
-            Console.WriteLine($"\nLog: Event triggered at count {count}.");
+            Console.WriteLine($"\n-Log: Event triggered at count {count}.");
         }
 
         static void Main(string[] args)
