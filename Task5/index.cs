@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 
 class Program {
-    static void Main() {
+    static void Main(string args[]) {
         string inputFile = "students.csv";
         string outputFile = "result.txt";
 
