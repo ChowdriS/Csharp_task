@@ -24,7 +24,7 @@ namespace SampleApp
             _count++;
             Console.WriteLine($"Current Count: {_count}");
 
-            if (_count == _threshold)
+            if (_count >= _threshold)
             {
 
                 ThresholdReached?.Invoke(_count);
