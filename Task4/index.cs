@@ -9,7 +9,7 @@ class Student {
 }
 
 class Program {
-    static void Main(string args[]) {
+    static void Main(string []args) {
         List<Student> students = new List<Student> {
             new Student { Name = "Chowdri", Grade = 85, Age = 20 },
             new Student { Name = "Kaviraj", Grade = 72, Age = 19 },

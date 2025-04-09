@@ -14,7 +14,7 @@ class Person {
     }
 }
 class Program {
-    static void Main(string args[]) {
+    static void Main(string []args) {
         Person person1 = new Person("Alice", 25);
         Person person2 = new Person("Bob", 30);
 
