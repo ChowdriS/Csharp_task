@@ -25,6 +25,8 @@ class Program {
             .Where(s => s.Grade > threshold)
             .OrderBy(s => s.Name)
             .ToList();
+        
+        var groups = students   
 
         Console.WriteLine("\nStudents with grade above " + threshold + ":");
         foreach (var student in result) {

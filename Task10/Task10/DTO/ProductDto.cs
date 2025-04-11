@@ -1,8 +1,7 @@
-﻿namespace Task10.Model
+﻿namespace Task10.DTO
 {
-    public class Product
+    public class ProductDto
     {
-        public Guid Id { get; set; } = Guid.NewGuid();
         public required string Name { get; set; }
         public int Quantity { get; set; }
         public decimal Price { get; set; }

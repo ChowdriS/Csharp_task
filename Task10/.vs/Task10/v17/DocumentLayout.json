@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|solutionrelative:task10\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6093D33F-1DDB-46C2-928B-F8149DAD7742}|Task10\\Task10.csproj|d:\\presidio\\csharp_task\\task10\\task10\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,47 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Program.cs",
-              "RelativeDocumentMoniker": "Task10\\Program.cs",
-              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Program.cs",
-              "RelativeToolTip": "Task10\\Program.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T14:10:05.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Task10\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Task10\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:50:59.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Model\\Product.cs",
-              "RelativeDocumentMoniker": "Task10\\Model\\Product.cs",
-              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Model\\Product.cs",
-              "RelativeToolTip": "Task10\\Model\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:49:30.771Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -79,14 +44,66 @@
               "RelativeDocumentMoniker": "Task10\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Task10\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvygAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:46:06.507Z",
+              "WhenOpened": "2025-04-11T13:55:30.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Task10\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Task10\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:47:02.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoggingMiddleware.cs",
+              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Middleware\\LoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Task10\\Middleware\\LoggingMiddleware.cs",
+              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Middleware\\LoggingMiddleware.cs",
+              "RelativeToolTip": "Task10\\Middleware\\LoggingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:46:03.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Interface\\IProductService.cs",
+              "RelativeDocumentMoniker": "Task10\\Interface\\IProductService.cs",
+              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Interface\\IProductService.cs",
+              "RelativeToolTip": "Task10\\Interface\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:12:22.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Interface\\IRepository.cs",
+              "RelativeDocumentMoniker": "Task10\\Interface\\IRepository.cs",
+              "ToolTip": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Interface\\IRepository.cs",
+              "RelativeToolTip": "Task10\\Interface\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T13:11:55.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Presidio\\Csharp_task\\Task10\\Task10\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Task10\\Controllers\\WeatherForecastController.cs",
@@ -94,8 +111,7 @@
               "RelativeToolTip": "Task10\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T13:45:37.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T13:45:37.908Z"
             }
           ]
         }

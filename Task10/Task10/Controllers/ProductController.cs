@@ -2,6 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Task10.Data;
+using Task10.DTO;
+using Task10.Interface;
 using Task10.Model;
 
 namespace Task10.Controllers
@@ -10,56 +12,54 @@ namespace Task10.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly AppDbContext db;
-        public ProductController(AppDbContext db)
+        private readonly IProductService service;
+
+        public ProductController(IProductService service)
         {
-            this.db = db;
+            this.service = service;
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAll()
+            => Ok(await service.GetAllProductsAsync());
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(Guid id)
         {
-            var products = await db.Product.ToListAsync();
-            return Ok(products);
+            var product = await service.GetProductByIdAsync(id);
+            if (product == null) return NotFound();
+            return Ok(product);
         }
+
+        // for testing exception middleware
+        //[HttpGet("throw")]
+        //public IActionResult Throw()
+        //{
+        //    throw new Exception("Simulated exception for testing.");
+        //}
+
 
         [HttpPost]
-        public async Task<IActionResult> Create(Product NewProduct)
+        public async Task<IActionResult> Create([FromBody] ProductDto dto)
         {
-            await db.Product.AddAsync(NewProduct);
-            await db.SaveChangesAsync();
-            return Ok("Successfully added");
+            var created = await service.CreateProductAsync(dto);
+            return Ok(created);
         }
 
-
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, Product product)
+        public async Task<IActionResult> Update(Guid id, [FromBody] ProductDto dto)
         {
-            var oldProduct = await db.Product.FindAsync(id);
-            if (oldProduct == null) 
-            {
-                return NotFound("Id is not valid");    
-            }
-            oldProduct.Name = product.Name;
-            oldProduct.Quantity = product.Quantity;
-            oldProduct.Quantity = product.Quantity;
-
-            await db.SaveChangesAsync();
-
-            return Ok(oldProduct);
+            var updated = await service.UpdateProductAsync(id, dto);
+            if (updated == null) return NotFound("Product not found");
+            return Ok(updated);
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            var oldProduct = await db.Product.FindAsync(id);
-            if (oldProduct == null) return NotFound("Id is not valid");
-
-            db.Product.Remove(oldProduct);
-            await db.SaveChangesAsync();
-            return Ok("Successfully Deleted");
+            var result = await service.DeleteProductAsync(id);
+            if (!result) return NotFound("Product not found");
+            return Ok("Deleted successfully");
         }
-
-
     }
 }

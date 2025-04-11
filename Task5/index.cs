@@ -29,8 +29,11 @@ class Program {
 
             Console.WriteLine("Processed successfully. Result written to '" + outputFile + "'.");
         }
-        catch (Exception e) {
-            Console.WriteLine("Error: " + e.Message);
+        catch (FileNotFoundException e) {
+            Console.WriteLine("File Not found Error: " + e.Message);
+        }
+        catch (IOException e) {
+            Console.WriteLine("File Not found Error: " + e.Message);
         }
     }
 }
