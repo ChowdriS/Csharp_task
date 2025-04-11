@@ -33,7 +33,7 @@ class Program {
             Console.WriteLine("File Not found Error: " + e.Message);
         }
         catch (IOException e) {
-            Console.WriteLine("File Not found Error: " + e.Message);
+            Console.WriteLine("I/O Error: " + e.Message);
         }
     }
 }
