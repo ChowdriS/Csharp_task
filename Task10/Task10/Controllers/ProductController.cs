@@ -32,11 +32,11 @@ namespace Task10.Controllers
         }
 
         // for testing exception middleware
-        //[HttpGet("throw")]
-        //public IActionResult Throw()
-        //{
-        //    throw new Exception("Simulated exception for testing.");
-        //}
+        [HttpGet("throw")]
+        public IActionResult Throw()
+        {
+            throw new Exception("Simulated exception for testing.");
+        }
 
 
         [HttpPost]
