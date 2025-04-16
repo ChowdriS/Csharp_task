@@ -1,0 +1,15 @@
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.AssemblyInfoInputs.cache
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.AssemblyInfo.cs
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.csproj.CoreCompileInputs.cache
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.sourcelink.json
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\bin\Debug\net8.0\InventoryApp.exe
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\bin\Debug\net8.0\InventoryApp.deps.json
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\bin\Debug\net8.0\InventoryApp.runtimeconfig.json
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\bin\Debug\net8.0\InventoryApp.dll
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\bin\Debug\net8.0\InventoryApp.pdb
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.dll
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\refint\InventoryApp.dll
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.pdb
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\InventoryApp.genruntimeconfig.cache
+D:\Presidio\Csharp_task\Inventory Management\InventoryApp\InventoryApp\obj\Debug\net8.0\ref\InventoryApp.dll

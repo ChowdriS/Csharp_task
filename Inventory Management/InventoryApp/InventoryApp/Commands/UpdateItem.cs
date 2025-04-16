@@ -29,7 +29,8 @@ public class UpdateItemCommand<T> : ICommand where T : InventoryItem
         Console.WriteLine("Available Items:");
         for (int i = 0; i < items.Count; i++)
         {
-            Console.WriteLine($"{i + 1}. {items[i].Name} ({items[i].Id})");
+            Console.WriteLine($"{i + 1}. " + items[i].GetItemDetails());
+            
         }
 
         Console.Write("Enter item number to update: ");
@@ -50,7 +51,6 @@ public class UpdateItemCommand<T> : ICommand where T : InventoryItem
 
             _manager.UpdateItem(item.Id, item);
 
-            Logger.Log($"Item updated: {item.Name}");
             await ProgressHelper.ShowProgressAsync("Updating item");
             Console.WriteLine("Item updated successfully.");
         }

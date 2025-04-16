@@ -1,0 +1,2 @@
+16-04-2025 18:23:30: Item Apple is added to Inventory
+16-04-2025 18:44:26: Items are loaded from file Inventory.json

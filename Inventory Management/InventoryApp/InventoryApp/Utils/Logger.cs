@@ -8,11 +8,19 @@ namespace InventoryApp.Utils
 {
     internal class Logger
     {
-        private static readonly string logFile = "log.txt";
+        private static readonly string logFile = "D:\\Presidio\\Csharp_task\\Inventory Management\\InventoryApp\\InventoryApp\\log.txt";
 
-        public static void Log(string message)
+        public void Log(string message)
         {
-            File.AppendAllText(logFile, $"{DateTime.Now}: {message}\n");
+            try
+            {
+                File.AppendAllText(logFile, $"{DateTime.Now}: {message}\n");
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine( e.Message );
+            }
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+  "3f6eca94-e99f-4c6e-b7b9-87b444474238": {
+    "Id": "3f6eca94-e99f-4c6e-b7b9-87b444474238",
+    "Name": "Apple",
+    "Description": "Fruit",
+    "PurchaseDate": "2025-04-16T17:38:24.20218+05:30",
+    "Quantity": 10
+  },
+  "d2fd92c8-3325-421d-ae5f-f7676a49a225": {
+    "Id": "d2fd92c8-3325-421d-ae5f-f7676a49a225",
+    "Name": "Pen",
+    "Description": "stationary thing",
+    "PurchaseDate": "2025-04-16T17:46:30.7679008+05:30",
+    "Quantity": 100
+  }
+}

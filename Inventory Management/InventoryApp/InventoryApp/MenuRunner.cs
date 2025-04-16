@@ -31,10 +31,10 @@ public class MenuRunner
 
             if (choice == "0") break;
 
-            if (int.TryParse(choice, out int index) && index > 0 && index <= _commands.Count)
+            if (int.TryParse(choice, out int ind) && ind > 0 && ind <= _commands.Count)
             {
                 Console.Clear();
-                await _commands[index - 1].ExecuteAsync();
+                await _commands[ind - 1].ExecuteAsync();
             }
             else
             {

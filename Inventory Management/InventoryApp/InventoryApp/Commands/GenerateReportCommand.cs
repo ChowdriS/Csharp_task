@@ -23,9 +23,9 @@ public class GenerateReportCommand<T> : ICommand where T : InventoryItem
         var report = InventoryAnalytics.GenerateItemTypeReport(_manager.GetAllItems());
 
         Console.WriteLine("\nInventory Report:");
-        foreach (var category in report)
+        foreach (var (key,category) in report)
         {
-            Console.WriteLine($"Category: {category.Key} - Total Items: {category.Count()}");
+            Console.WriteLine($"Category: {key} - Total Items: {category.Count()}");
             foreach (var item in category)
             {
                 Console.WriteLine($"  - {item.Name}");

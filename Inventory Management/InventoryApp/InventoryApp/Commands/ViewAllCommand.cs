@@ -15,16 +15,21 @@ public class ViewAllCommand<T> : ICommand where T : InventoryItem
         _manager = manager;
     }
 
-    public Task ExecuteAsync()
+    public async Task ExecuteAsync()
     {
         var items = _manager.GetAllItems();
 
+        if (items.Count() ==0)
+        {
+            Console.WriteLine("Inventory is Empty!");
+            return;
+        }
         Console.WriteLine("\nInventory:");
         foreach (var item in items)
         {
             Console.WriteLine(item.GetItemDetails());
         }
 
-        return Task.CompletedTask;
+        await Task.Delay(1000);
     }
 }

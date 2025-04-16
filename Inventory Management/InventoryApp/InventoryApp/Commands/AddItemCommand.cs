@@ -43,11 +43,9 @@ public class AddItemCommand<T> : ICommand where T : InventoryItem
 
         item.PurchaseDate = DateTime.Now;
 
-        // You could extend this block to collect more specific fields.
 
         _manager.AddItem((T)item);
-
-        Logger.Log($"Item added: {item.Name}");
+        
         await ProgressHelper.ShowProgressAsync("Adding item");
         Console.WriteLine("Item added successfully.");
     }

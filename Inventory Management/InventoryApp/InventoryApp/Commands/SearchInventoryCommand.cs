@@ -20,7 +20,7 @@ public class SearchInventoryCommand<T> : ICommand where T : InventoryItem
         var term = Console.ReadLine()?.ToLower();
 
         var results = _manager
-            .Where(item => item.Name.ToLower().Contains(term!) || item.Description.ToLower().Contains(term!))
+            .Where(item => item.Name.ToLower().Contains(term) || item.Description.ToLower().Contains(term))
             .ToList();
 
         if (results.Any())

@@ -28,7 +28,7 @@ public class RemoveItemCommand<T> : ICommand where T : InventoryItem
         Console.WriteLine("Available Items:");
         for (int i = 0; i < items.Count; i++)
         {
-            Console.WriteLine($"{i + 1}. {items[i].Name} ({items[i].Id})");
+            Console.WriteLine($"{i + 1}. " + items[i].GetItemDetails());
         }
 
         Console.Write("Enter item number to remove: ");
@@ -36,7 +36,6 @@ public class RemoveItemCommand<T> : ICommand where T : InventoryItem
         {
             var item = items[index - 1];
             _manager.RemoveItem(item.Id);
-            Logger.Log($"Item removed: {item.Name}");
             await ProgressHelper.ShowProgressAsync("Removing item");
             Console.WriteLine("Item removed.");
         }
